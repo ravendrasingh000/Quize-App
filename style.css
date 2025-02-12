@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: rgb(218, 207, 207);
+  background-color: rgba(7, 188, 243, 0.089);
 }
 .container {
     width: 50%;
@@ -16,7 +16,7 @@ body {
     border-radius: 7px;
     padding: 0.7em;
     background-color: rgba(165, 78, 165, 0.623);
-    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 #progress{
