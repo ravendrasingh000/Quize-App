@@ -67,7 +67,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: white;
+  background: linear-gradient(135deg, rgb(6, 235, 178), rgb(148, 235, 9));
   padding: 20px;
   border: 1px solid black;
 }
@@ -83,8 +83,13 @@ body {
     cursor: pointer;
 }
 
+#next-btn{
+  display: none;
+}
+
 #submit-btn{
     background-color: black;
+    display: none;
 }
 
 #submit-btn:active{
