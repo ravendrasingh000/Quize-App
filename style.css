@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(218, 207, 207);
+}
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    /* border: 2px solid; */
+}
+
+#quiz-box {
+    display: none;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    padding: 0.7em;
+    background-color: rgba(165, 78, 165, 0.623);
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#progress{
+    text-align: start;
+    padding-left: 1em;
+}
+
+#timer{
+    text-align: end;
+    position: relative;
+    top: -35px;
+    padding-right: 1em;
+}
+
+#question {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#options button {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+  cursor: pointer;
+  /* background-color: rgb(113, 103, 172); */
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.wrong {
+  background-color: lightcoral;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#result-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#next-btn, #submit-btn, #result-popup button ,#start-btn{
+    margin: 1em auto;
+    padding: 0.5em 2em;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(148, 40, 21);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn{
+    background-color: black;
+}
+
+#submit-btn:active{
+    background-color: rgb(150, 112, 64);
+    color: black;
+}
+
+#result-popup button{
+    background-color: blue;
+}
+
+#result-popup button:active{
+    background-color: black;
+}
+
+#result-popup{
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#start-btn{
+    background-color: rgba(238, 7, 161, 0.781);
+    color: rgb(252, 250, 250);
+}
+
+#start-btn:active{
+    color: white;
+}
+
+#next-btn:active{
+    background-color: black;
+}
+
+@media(max-width:550px){
+
+    .container{
+        width: 90%;
+   }
+}
